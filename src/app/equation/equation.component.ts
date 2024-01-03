@@ -43,12 +43,10 @@ export class EquationComponent implements OnInit {
     }
 
     get a() {
-        console.log(this.mathForm.value.a)
         return this.mathForm.value.a
     }
 
     get b() {
-        console.log(this.mathForm.value.b)
         return this.mathForm.value.b
     }
 
